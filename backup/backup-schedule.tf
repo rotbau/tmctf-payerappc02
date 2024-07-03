@@ -12,7 +12,7 @@ resource "tanzu-mission-control_backup_schedule" "sample-full" {
 
   spec {
     schedule {
-      rate = "0 12 * * 1"
+      rate = "0 23 * * 1,2,3,4,5"
     }
 
     template {
